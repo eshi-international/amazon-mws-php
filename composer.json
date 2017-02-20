@@ -1,0 +1,19 @@
+{
+    "name": "TomonoriIshizaka/amazon-mws-php",
+    "description": "Amazon Marketplace Web Service libraries",
+    "type": "library",
+    "homepage": "https://developer.amazonservices.jp/",
+    "license": "Apache-2.0",
+    "require": {
+        "php": ">=5.2.8",
+        "ext-curl": "*",
+        "ext-openssl": "*"
+    },
+    "include-path": ["src/"],
+    "autoload": {
+        "psr-0": {
+          "MWSProductsPHPClientLibrary": "src/",
+          "MWSFulfillmentInboundShipmentPHPClientLibrary": "src/"
+        }
+    }
+}
