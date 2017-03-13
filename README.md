@@ -15,7 +15,7 @@ Install [Composer](http://getcomposer.org/) and add amazon-mws to your `composer
                 "name": "amazon-mws-php",
                 "version": "101",
                 "dist": {
-                    "url": "https://github.com/TomonoriIshizaka/amazon-mws-php/archive/1.01.zip",
+                    "url": "https://github.com/eshi-international/amazon-mws-php/archive/1.01.zip",
                     "type": "zip"
                 },
                 "autoload": {
